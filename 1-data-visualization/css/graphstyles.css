@@ -94,4 +94,8 @@ form button {
   color: #fff;
 }
 
+button[ng-disabled] {
+  background: #999;
+}
+
 /*# sourceMappingURL=graphstyles.css.map */

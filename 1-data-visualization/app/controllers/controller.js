@@ -1,6 +1,6 @@
-app.controller('graphController', function($scope, $firebaseArray){
+app.controller('graphController', function($scope, $firebaseArray, FIREBASE_URL ){
 
-var ref = new Firebase('https://vizapp.firebaseio.com/data');
+var ref = new Firebase(FIREBASE_URL + '/data');
 $scope.graphData = $firebaseArray(ref);
 
     $scope.width = 600;

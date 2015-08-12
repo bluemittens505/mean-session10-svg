@@ -90,7 +90,9 @@ form {
 
 }
 
-
+button[ng-disabled] {
+	background: #999;
+}
 
 
 
